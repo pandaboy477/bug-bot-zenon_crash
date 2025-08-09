@@ -7,7 +7,6 @@
     "directories": {
         "lib": "lib",
         "database": "database",
-        "database": "database",
         "session": "session",
         "media": "media"
     },
@@ -16,6 +15,10 @@
     },
     "author": "Toxxic",
     "license": "MIT",
+    "private": true,
+    "engines": {
+        "node": ">=18"
+    },
     "dependencies": {
         "@whiskeysockets/baileys": "^6.7.9",
         "@adiwajshing/keyed-db": "^0.2.4",
